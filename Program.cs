@@ -9,7 +9,7 @@ namespace NET_T10 {
         static void Main(string[] args) {
             int opcion = 0;
 
-            Console.WriteLine("Elija el ejercicio que desea ejecutar: \n 1. Cuenta \n 0. Salir");
+            Console.WriteLine("Elija el ejercicio que desea ejecutar: \n 1. Cuenta \n 2. Persona \n 0. Salir");
             
             opcion = int.Parse(Console.ReadLine());
 
@@ -17,6 +17,9 @@ namespace NET_T10 {
                 case 1:
                     E1 ejercicio1 = new E1();
 
+                    break;
+                case 2:
+                    E2 ejercicio2 = new E2();
                     break;
                 default:
                     break;
