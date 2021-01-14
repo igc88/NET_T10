@@ -24,8 +24,6 @@ namespace NET_T10 {
             for (int i =0; i < array.Length; i++) {
                 Console.WriteLine("{0} - {1}", array[i].Passwd, fortalezas[i] ? "Fuerte" : "Debil");
             }
-        }
-        
-        
+        }    
     }
 }

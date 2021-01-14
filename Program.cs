@@ -24,6 +24,9 @@ namespace NET_T10 {
                 case 3:
                     E3 ejercicio3 = new E3();
                     break;
+                case 4:
+                    E4 ejercicio4 = new E4();
+                    break;
                 default:
                     break;
             }

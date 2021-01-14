@@ -43,12 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\Television.cs" />
     <Compile Include="Classes\Cuenta.cs" />
+    <Compile Include="Classes\Electrodomestico.cs" />
+    <Compile Include="Classes\Lavadora.cs" />
     <Compile Include="Classes\Password.cs" />
     <Compile Include="Classes\Persona.cs" />
     <Compile Include="Ejercicios\E2.cs" />
     <Compile Include="Ejercicios\E1.cs" />
     <Compile Include="Ejercicios\E3.cs" />
+    <Compile Include="Ejercicios\E4.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
