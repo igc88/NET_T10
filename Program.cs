@@ -30,6 +30,12 @@ namespace NET_T10 {
                 case 5:
                     E5 ejercicio5 = new E5();
                     break;
+                case 6:
+                    E6 ejercicio6 = new E6();
+                    break;
+                case 7:
+                    E7 ejercicio7 = new E7();
+                    break;
                 default:
                     break;
             }
