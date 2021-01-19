@@ -18,7 +18,9 @@ namespace NET_T10 {
                 new Electrodomestico(1000, 500),
                 new Electrodomestico(1500, "Azul", 'A', 300),
             };
+
             int i = 1;
+
             foreach (Electrodomestico o in e) {
                 Console.WriteLine("Electrodomestico {0}: {1}", i, o.precioFinal());
                 i++;
